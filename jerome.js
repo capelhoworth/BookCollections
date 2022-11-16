@@ -1,9 +1,8 @@
 // name, location, thumbnail, phone Number, website, date founded
 
-const bookstores = [
+const bookstoresJerome = [
   { 
-    region: {
-      NWA:
+    region: "NWA",
         {
         name: "Once Upon a Time Books - Bentonville",
         location: {
@@ -43,7 +42,7 @@ const bookstores = [
           postcode: "72712",
           coordinates: "36.36584681030357, -94.19915786713825",
         },
-        thumbnail: "later",
+        thumbnail: "https://www.twofriendsbooks.com/i/9929452/IMG_2967.jpg",
         phone: "(479) 367-2442",
         website: "http://onceuponatimebooks.com",
         founded: "2021",
@@ -73,13 +72,12 @@ const bookstores = [
           postcode: "72701",
           coordinates: "36.07033199316614, -94.14101309776125",
         },
-        thumbnail: "later",
+        thumbnail: "https://images.squarespace-cdn.com/content/v1/5616ad44e4b0894dff161e2a/1447431125490-2AENSYY6D85ILS9K3C3U/DSBS1-11.jpg?format=2500w",
         phone: "(479 442-8182)",
         website: "dicksonstreetbooks.com",
         founded: "1995",
         hours: "",
       }
-    } 
-  }
+    }
   
 ];

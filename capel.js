@@ -1,8 +1,8 @@
 const bookstores = [
     {
-        {
+        // {
         region: 
-        { WNC; 
+        { "WNC"; 
             { name: "Maloprop's Bookstore",
             location: {
                 city: "Asheville",
