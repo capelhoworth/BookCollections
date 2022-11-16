@@ -1,7 +1,4 @@
-const bookstoreContainer = document.querySelector("#bookstoresJerome");
-
-// bookstoreContainer.classList.add("flex");
-// bookstoreContainer.classList.add("flex-wrap");
+const bookstoreContainer = document.querySelector("#bookstores");
 
 // function collection(reference) {
 for (let bookstore of bookstoresJerome) {
@@ -22,10 +19,10 @@ for (let bookstore of bookstoresJerome) {
   // thumb.appendChild(pic);
   // card.appendChild(thumb);
 
-  let name = document.createElement("div");
-  name.classList.add("card-title");
-  name.innerText = `${bookstoresJerome.region.name}`;
-  card.appendChild(name);
+  let nameBusiness = document.createElement("div");
+  nameBusiness.classList.add("card-title");
+  nameBusiness.innerText = `${bookstore.name}`;
+  card.appendChild(nameBusiness);
 
   // let content = document.createElement("div");
   // content.classList.add("card-content");
