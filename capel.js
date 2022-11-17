@@ -53,7 +53,7 @@ const bookstores = [
             thumbnail: "https://bookmanager.com/i/9916806/logo_navbar?1668631059",
             phone: "(828) 299-1145",
             website: "https://mrksusedbooks.com/",
-            founded: "2001",
+            founded: "1996",
             }
             { name: "BOOKS FOR GOOD",
             location: {
