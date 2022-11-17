@@ -29,6 +29,10 @@ header {
   width: 18rem;
 }
 
+.card:hover {
+  transform: scale(1.1);
+}
+
 .webLink {
   color: gray;
 }

@@ -23,7 +23,8 @@ const bookstores = [
       postcode: "28792",
       coordinates: "35.3216593627943, -82.45842740005527",
     },
-    thumbnail: "https://www.joyofbooks.net/media/files/store.jpg",
+    thumbnail:
+      "https://www.hendersonvillenc.gov/sites/default/files/uploads/businesses/dsc0331.jpg",
     phone: "(828) 595-2428",
     website: "http://www.joyofbooks.net/",
     founded: "2006",
@@ -67,7 +68,7 @@ const bookstores = [
       coordinates: "35.409488929171125, -82.51568649651043",
     },
     thumbnail:
-      "https://www.google.com/maps/uv?pb=!1s0x8859eb9c501faec3%3A0x7c6300fa397093c9!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMKdRhzuMPuZOyGks2_HhOFqaj1KqrlWAIMYF0N%3Dw260-h175-n-k-no!5sindependent%20bookstores%20wnc%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMKdRhzuMPuZOyGks2_HhOFqaj1KqrlWAIMYF0N&hl=en&sa=X&ved=2ahUKEwjH0Nzpx7P7AhUMlGoFHZddA_kQ7ZgBKAB6BAgcEAI#",
+      "https://lh3.googleusercontent.com/p/AF1QipOsai4plUtzlbphU97Cr6ruqczOAf7JRn3FGij6=s1360-w1360-h1020",
     phone: "(828) 989-4655",
     website: "http://www.booksforgoodinc.com/",
     founded: "2016",

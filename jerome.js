@@ -11,7 +11,7 @@ const bookstoresJerome = [
     thumbnail:
       "https://www.onceuponatimebooks.com/assets/images/block/chairs%20-%20scaled.jpg.jpg",
     phone: "(479) 367-2595",
-    website: "http://onceuponatimebooks.com",
+    website: "https://onceuponatimebooks.com",
     founded: "2018",
     hours: "",
   },
@@ -27,7 +27,7 @@ const bookstoresJerome = [
     thumbnail:
       "https://e6tnk9va8hh.exactdn.com/wp-content/uploads/2019/12/OUAT-book-tree.jpg?strip=all&lossy=1&ssl=1",
     phone: "(479) 927-6001",
-    website: "http://onceuponatimebooks.com",
+    website: "https://onceuponatimebooks.com",
     founded: "2010",
     hours: "",
   },
@@ -42,8 +42,8 @@ const bookstoresJerome = [
     },
     thumbnail: "https://www.twofriendsbooks.com/i/9929452/IMG_2967.jpg",
     phone: "(479) 367-2442",
-    website: "http://onceuponatimebooks.com",
-    founded: "2021",
+    website: "https://www.twofriendsbooks.com/",
+    founded: "2015",
     hours: "",
   },
   {
@@ -58,7 +58,7 @@ const bookstoresJerome = [
     thumbnail:
       "https://static.wixstatic.com/media/11062b_3348c4536a2e4dca8ba46a33a30fe1cc~mv2.jpg/v1/fill/w_1922,h_1342,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_3348c4536a2e4dca8ba46a33a30fe1cc~mv2.jpg",
     phone: "(479) 246-0533",
-    website: "friendlybookstore.org",
+    website: "https://friendlybookstore.org",
     founded: "2013",
     hours: "",
   },
@@ -74,7 +74,7 @@ const bookstoresJerome = [
     thumbnail:
       "https://images.squarespace-cdn.com/content/v1/5616ad44e4b0894dff161e2a/1447431125490-2AENSYY6D85ILS9K3C3U/DSBS1-11.jpg?format=2500w",
     phone: "(479 442-8182)",
-    website: "dicksonstreetbooks.com",
+    website: "https://dicksonstreetbooks.com",
     founded: "1995",
     hours: "",
   },
