@@ -4,7 +4,31 @@
   margin: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(111, 0, 255);
+}
+
 #bookstores {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+}
+
+.webLink {
+  color: gray;
 }

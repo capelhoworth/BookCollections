@@ -1,64 +1,57 @@
 const bookstoreContainer = document.querySelector("#bookstores");
 
-// function collection(reference) {
-for (let bookstore of bookstoresJerome) {
-  let card = document.createElement("div");
-  card.classList.add("card");
-  card.classList.add("small");
-  card.classList.add("col");
-  card.classList.add("s12");
-  card.classList.add("m9");
-  card.classList.add("l4");
+function collection(reference) {
+  for (let bookstore of reference) {
+    let card = document.createElement("div");
+    card.classList.add("card");
+    card.classList.add("medium");
+    card.classList.add("col");
+    card.classList.add("s12");
+    card.classList.add("m9");
+    card.classList.add("l4");
 
-  // let thumb = document.createElement("div");
-  // thumb.classList.add("card-image");
-  // thumb.classList.add("circle");
-  // let pic = document.createElement("img");
-  // pic.src = customer.picture.large;
+    let thumb = document.createElement("div");
+    thumb.classList.add("card-image");
+    let pic = document.createElement("img");
+    pic.src = bookstore.thumbnail;
 
-  // thumb.appendChild(pic);
-  // card.appendChild(thumb);
+    thumb.appendChild(pic);
+    card.appendChild(thumb);
 
-  let nameBusiness = document.createElement("div");
-  nameBusiness.classList.add("card-title");
-  nameBusiness.innerText = `${bookstore.name}`;
-  card.appendChild(nameBusiness);
+    let name = document.createElement("div");
+    name.classList.add("card-title");
+    name.innerText = `${bookstore.name}`;
+    card.appendChild(name);
 
-  // let content = document.createElement("div");
-  // content.classList.add("card-content");
-  // content.classList.add("medium");
+    let website = document.createElement("a");
+    website.classList.add("webLink");
+    let webText = document.createTextNode(`${bookstore.website}`);
+    website.appendChild(webText);
+    website.href = `${bookstore.website}`;
+    card.appendChild(website);
 
-  // let email = document.createElement("a");
-  // email.classList.add("emailLink");
-  // let emailText = document.createTextNode(`${customer.email}`);
-  // email.appendChild(emailText);
-  // email.href = `mailto:${customer.email}`;
-  // card.appendChild(email);
+    let content = document.createElement("div");
+    content.classList.add("card-content");
 
-  // let address = document.createElement("div");
-  // address.innerText = `${
-  //   customer.location.street.number
-  // } ${customer.location.street.name.trim()}
-  // ${customer.location.city}, ${nameToAbbr(customer.location.state)} ${
-  //   customer.location.postcode
-  // }`;
-  // content.appendChild(address);
+    let address = document.createElement("div");
+    address.innerText = `${bookstore.location.street}
+    ${bookstore.location.city}, ${nameToAbbr(bookstore.location.state)} ${
+      bookstore.location.postcode
+    }`;
+    content.appendChild(address);
 
-  // let birthday = document.createElement("div");
-  // let date1 = dateConvert(customer.dob.date);
-  // birthday.innerText = `DOB: ${date1}`;
-  // content.appendChild(birthday);
+    let phone = document.createElement("div");
+    phone.innerText = `${bookstore.phone}`;
+    content.appendChild(phone);
 
-  // let custDate = document.createElement("div");
-  // let date2 = dateConvert(customer.registered.date);
-  // custDate.innerText = `Customer since: ${date2}`;
-  // content.appendChild(custDate);
+    let founded = document.createElement("div");
+    founded.innerText = `Founded: ${bookstore.founded}`;
+    content.appendChild(founded);
 
-  // card.appendChild(content);
-  bookstoreContainer.appendChild(card);
+    card.appendChild(content);
+    bookstoreContainer.appendChild(card);
+  }
 }
-// }
 
-// collection(bookstores);
-// collection(bookstoresJerome);
-// <div class="flex flex-wrap">
+collection(bookstores);
+collection(bookstoresJerome);

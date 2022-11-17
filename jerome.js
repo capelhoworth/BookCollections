@@ -1,6 +1,6 @@
 const bookstoresJerome = [
   {
-    name: "test",
+    name: "Once Upon a Time Books - Bentonville",
     location: {
       city: "Bentonville",
       state: "Arkansas",
@@ -16,7 +16,7 @@ const bookstoresJerome = [
     hours: "",
   },
   {
-    name: "Once Upon a Time Books Springdale",
+    name: "Once Upon a Time Books - Tontitown",
     location: {
       city: "Tontitown",
       state: "Arkansas",
@@ -25,7 +25,7 @@ const bookstoresJerome = [
       coordinates: "36.17747245956867, -94.22551060051669",
     },
     thumbnail:
-      "https://lh5.googleusercontent.com/p/AF1QipM1mdDzFLhPafenOSrg5AQOT8qFoS--Bs3RpG06=w408-h544-k-no",
+      "https://e6tnk9va8hh.exactdn.com/wp-content/uploads/2019/12/OUAT-book-tree.jpg?strip=all&lossy=1&ssl=1",
     phone: "(479) 927-6001",
     website: "http://onceuponatimebooks.com",
     founded: "2010",
